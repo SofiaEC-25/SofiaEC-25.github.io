@@ -3,37 +3,104 @@
 
 body {
   background-color:#caedec;
+  background-image: url(/images/fadedroad50.jpg);
+  background-repeat: no-repeat;
   color: #574d40;
   font-family: "Merriweather", serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
-  text-align: center;
   line-height: 1.8;
 }
-body.left-align {
-  text-align: left;
-}
 
+#wrapper{
+  background-color: white;
+  margin-left:auto;
+  margin-right: auto;
+  width: 80%;
+  min-width: 900px;
+	max-width: 1280px;
+  box-shadow: 2px 2px 2px grey ;
+}
+nav {
+  color: #574d40;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  text-align: center;
+  font-style: normal;
+  font-size: 1.5em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none; 
+}
 header {
   background-color: #6c7ba3;
   color: #473e33;
   font-family: "Anek Telugu", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
+  font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   text-align: center;
+  padding-top: 5px;
+	padding-bottom: 5px;
+}
+#homehero {
+  height: 300px;
+  background-image: url(/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover
+}
+
+h1 {
+  font-size: 3em;
+}
+h3{
+  color: #8C3826;
+}
+dt{
+  color: #8C3826;
+}
+
+h4 {
+  background-color: #D2B48C;
+  font-size: 1.2em;
+  padding-left: .5em;
+  padding-bottom: .25em;
+}
+#details {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+img {
+ border-style: none;
+ max-width: 100%;
+ height: auto;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+ 
+main {
+  display: block;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  padding-right: 2em;
 }
 
 footer {
   background-color: #6c7ba3;
   color: #f2efeb;
   font-family: "Anek Telugu", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-top: solid 2px #8C3826;
 }
+
+
