@@ -27,38 +27,28 @@
                 <li><a href="jobs.html">Jobs</a></li>
             </ul>
         </nav>
-        
         <main>
-            <div id="homehero">
+            <div id="herojobs">
             </div>
-            <h2>Follow the Winding Road to JavaJam</h2>
-            <p>
-                We&#8217;re a little out of the way, but take a drive down Garrett Bay Road to JavaJam today! Indulge in our locally roasted free-trade coffee and home-made pastries. You&#8217;ll feel right at home at JavaJam!
-            </p>
-            <p>Friendly and eclectic &mdash; JavaJam Coffee Bar is the perfect place to take a break,
-            enjoy a refreshing beverage, and have a snack or light meal.</p>
-            <h3>
-                JavaJam Coffee Bar features:
-            </h3>
-            <ul>
-                <li>Specialty Coffee and Organic Tea</li>
-                <li>Bagels, Muffins, and Gluten-free Pastries</li>
-                <li>Organic Salads</li>
-                <li>Music and Poetry Readings</li>
-                <li>Open Mic Night</li>
-            </ul>
-            <div>
-            12010 Garrett Bay Road<br>
-            Ellison Bay, WI 54210<br>
-            <a id="mobile" href="tel:888-555-5555">888-555-5555</a><span id="desktop">888-555-
-                5555</span><br><br>
-            </div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to
+            start your application. All information is required. </p>
+            <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+                <label for="myName">Name: </label>
+                <input type="text" id="myName" name="myName" required>
+                <label for="myEmail">E-mail: </label>
+                <input type="email" id="myEmail" name="myEmail" required>
+                <label for="myStart">Start Date: </label>
+                <input type="date" id="myStart" name="myStart" required>
+                <label for="myExperience">Experience: </label>
+                <textarea name="myExperience" id="myExperience" rows="2" cols="20" required></textarea>
+                <input type="submit" value="Apply Now">
+            </form>
         </main>
-        <br>
-        <footer>
+  <footer>
             <small><i>Copyright © 2025 JavaJam Coffee Bar</i></small><br>
             <small><i><a href="mailto:sofi@edwards-cardon.com">Sofia Edwards-Cardon</a></i></small>
         </footer>
     </div>
 </body>
-</html>
+</html>     
